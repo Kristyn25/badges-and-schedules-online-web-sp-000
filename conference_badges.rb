@@ -3,7 +3,7 @@ def badge_maker(speaker)
  return "Hello, my name is #{speaker}."
 end
 
-speaker_order = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+#speaker_order = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_badge_creator(speaker_order)
   speaker_order.collect {|speaker| badge_maker(speaker)}
